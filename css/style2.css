@@ -1,0 +1,257 @@
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+.map{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    position: fixed!important;
+}
+
+#floating-panel {
+    background-color: #fff;
+    padding: 0px;
+    font-family: 'Roboto','sans-serif';
+    margin:1% 3% 2%;
+}
+.rodape{
+    position: absolute;
+    background: linear-gradient(to bottom, #000304 60%, #9e9e9e 100%);
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+    z-index: 15;
+    margin: 0px 0 0px;
+    bottom: 0;
+    padding: 0% 0;
+    padding-top: 1%;
+}
+.modal-backdrop{
+    z-index: 4;
+}
+.modal-header{
+    text-align: center;
+}    
+#areaDesc{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 100%;
+    width: 100%;
+    margin-top: 2%;
+    border: solid 1px;
+    font-size:190%; 
+}
+.close{
+    font-size: 243%;
+}
+.form{
+    font-size: 83%!important;
+    background: linear-gradient(to bottom, #000304 61%, #9e9e9e 110%);
+}
+.select{
+    height: 30px;
+    padding-bottom: 2px;
+    width: 74%;
+    font-size: 129%;
+    padding: 0 0 0%;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 0px;
+    color: #fff;
+    text-align-last: center;
+    background: #000;
+    border-radius: 6px;
+}
+.descricao{
+    height: 30px;
+    padding-bottom: 2px;
+    width: 24.5%;
+    font-size: 129%;
+    padding: 0 0 0%;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 0px;
+    color: #fff;
+    text-align-last: center;
+    background: #000;
+    border-radius: 6px;
+}
+.modal-backdrop{
+    z-index: 14;
+}
+.modal-footer{
+    padding: 2%;
+}
+.btn{
+    margin-right: 6px;
+    font-weight: bold;
+    width: 100%;
+}
+.efect{
+    width: 100%;
+    background: linear-gradient(to bottom, #000304 0%, #0927ff 100%);
+    margin-right: 6px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 1%
+}
+.btn-primary{
+    border-color: #fff;
+}
+#nomeUpdt{
+    width: 53%;
+    margin-bottom: 1%;
+    border-radius: 4px;
+    padding: 2%;
+    height: 32px;
+    font-size: 124%;
+}
+#nome{
+    width: 74%;
+    margin-bottom: 2%;
+    border-radius: 4px;
+    padding: 1%;
+    height: 32px;
+    font-size: 124%;
+}
+#cel{
+    width: 24.3%;
+    border-radius: 4px;
+    padding: 2%;
+    height: 32px;
+    font-size: 124%;
+}
+#login{
+    width: 18%;
+    margin-bottom: 2%;
+    border-radius: 4px;
+    padding: 2%;
+    height: 32px;
+    font-size: 124%;
+}
+#celUpdt{
+    width: 26.3%;
+    border-radius: 4px;
+    padding: 2%;
+    height: 32px;
+    font-size: 124%;
+}
+#senha{
+    width: 26.3%;
+    border-radius: 4px;
+    padding: 2%;
+    height: 32px;
+    font-size: 124%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.senhaCenter{
+    text-align: center;
+}
+#pedido{
+    margin: -3px 4px 0 0px;
+    vertical-align: middle;
+    position: relative;
+    top: 1px;
+}
+#permissao{
+    margin: -3px 4px 0 0;
+    vertical-align: middle;
+    position: relative;
+    top: 1px;
+}
+.pedido{
+    padding-top: 1%;
+    text-align: center;
+}
+#timeopen{
+    width: 26%;
+    margin-bottom: 2%;
+    border-radius: 4px;
+    padding: 2%;
+    height: 32px;
+    font-size: 124%;
+}
+#timeclose{
+    margin-bottom: 2%;
+    border-radius: 4px;
+    padding: 2%;
+    height: 32px;
+    font-size: 124%;
+    width: 26%;
+}
+.span{
+    color: #fff;
+    font-weight: bold;
+    font-size: 123%;
+}
+.spanS{
+    color: #fff;
+    font-weight: bold;
+    font-size: 123%;
+    text-align: center;
+}
+.text{
+    font-size: 18px;
+}
+.option{
+    background: #000;
+}
+.option0{
+    background: #000;
+}
+ .gm-style-iw {
+        font-size: 19px;
+}
+
+.popover{
+    left: 14%!important;
+    top: 10%!important;
+
+}
+h5{
+    font-size: 21px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #000000 0%, #04147E 100%);
+    text-align: center;
+    padding: 12px 0 10px;
+    color: #FFF;
+    border-radius: 6px;
+}
+select:focus > option:checked { 
+    background: #0927ff !important;
+}
+input:focus{
+    border-color: #f0f0f0;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    cursor:pointer;
+    display:none;
+    width:100px;
+    color: #333445;
+    text-align:center;
+    position:relative;
+}
+   input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+   margin: 100; 
+}
+input[type=time]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    cursor:pointer;
+    display:none;
+    width:10px;
+    color: #333445;
+    text-align:center;
+    position:relative;
+}
+   input[type=time] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+   margin: 100; 
+}

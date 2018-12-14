@@ -1,0 +1,195 @@
+
+#map_content{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 100;
+    overflow: hidden;
+    position: fixed!important;
+    z-index: 4;
+}
+#floating-panel {
+    top: 85.5%;
+    background-color: #fff;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+}
+.rodape{
+    position: absolute;
+    background-color: gainsboro;
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+    z-index: 5;
+    margin: 0px 0 0px;
+    bottom: 0;
+}
+#floating-panel1 {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 0px;
+    color: white;
+    /*border: 1px solid #999;*/
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    /*padding-left: 10px;*/
+    background: linear-gradient(to bottom, #000304 0%, #9e9e9e 100%);
+    font-size: 18px;
+    font-weight: bold;
+    
+
+}
+.cadastrar{
+	margin-right: 0%;
+	font-weight: bold;
+	width: 100%;
+    font-size: 17px;
+    background: #000; 
+    color: #fff;
+    background: linear-gradient(to bottom, #6b7177 0%, #000000 100%);
+}
+#servico{
+	font-size: 19px;
+    width: 37.9%;
+    padding: 0 0 4px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: -4px;
+    margin-left: 0px;
+    text-align-last: center;
+    background: linear-gradient(to bottom, #000304 0%, #047398 100%);
+}
+#servicoOnline{
+    font-size: 19px;
+    width: 29%;
+    padding: 0 0 4px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: -1%;
+    text-align-last: center;
+    background: linear-gradient(to bottom, #000304 0%, #047398 100%);
+}
+#servicoPromo{
+    font-size: 19px;
+    width: 33.1%;
+    padding: 0 0 4px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 0px;
+    margin-left: -3px;
+    text-align-last: center;
+    background: linear-gradient(to bottom, #000304 0%, #047398 100%);
+}
+#btn_ex{
+	width: 100%;
+	font-weight: bold;
+	color: #FFF;
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom, #000000 0%, #0927ff 100%)!important;
+    border-radius: 6px;
+}
+#btn_exe{
+    width: 100%;
+    font-weight: bold;
+    color: #FFF;
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom, #000000 0%, #ff0f0f 100%);
+    border-radius: 6px;
+}
+#btn_Pro{
+    width: 100%;
+    font-weight: bold;
+    color: #FFF;
+    background: linear-gradient(to bottom, #000000 0%, #34d200 100%)!important;
+    border-radius: 6px;
+}
+#btn_Pro2{
+    width: 100%;
+    font-weight: bold;
+    color: #FFF;
+    background: linear-gradient(to bottom, #000000 0%, #34d200 100%)!important;
+    border-radius: 6px;
+}
+#option{
+	background-color: black;
+}
+
+
+.btn:hover{
+    color: #fff;
+    text-decoration: none;
+    border-color: #2229ea!important;
+}
+
+.btn:active{
+    background-color: #04a5b5b0!important;
+}
+
+.btn-primary {
+    background: #000!important;
+}
+
+.acao{
+    width: 100%;
+    font-weight: bold;
+    font-size: 17px;
+    background: linear-gradient(to bottom, #000304 0%, #6b7177 100%);
+    border-color: #2e6da4;
+}
+#senha{
+    width: 100%;
+    border: 1px solid;
+    margin: 0 0 10px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+#login{
+    width: 100%;
+    border: 1px solid;
+    margin: 0 0 10px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+h5{
+    font-size: 21px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #000000 0%, #04147E 100%);
+    text-align: center;
+    padding: 12px 0 10px;
+    color: #FFF;
+    border-radius: 6px;
+}
+.bodyper{
+    background: linear-gradient(to bottom, #000000 59%, #418dda 100%)!important;
+}
+.btn-info{
+    background: linear-gradient(to bottom, #000000 59%, #418dda 100%)!important;
+}
+.alert-sucess{
+    background: linear-gradient(to bottom, #ffffff 43%, #418dda 96%)!important;
+    border-radius: 50px;
+    font-size: 26px;
+    color: #ffffff!important;
+    border-color: #000000!important;
+}
+.alert-danger{
+    background: linear-gradient(to bottom, #000000 43%, #418dda 96%)!important;
+    color: #fff;
+    border-color: #1b0000;
+    font-size: 26px;
+
+}
+.alert{
+    background: linear-gradient(to bottom, #000000 43%, #418dda 96%)!important;
+    border-radius: 30px;
+    font-size: 26px;
+    color: #ffffff!important;
+    border-color: #000000!important;
+}
