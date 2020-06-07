@@ -1,2 +1,2 @@
 # Tecnologias:
-## XML, PHP, JS, HTML.
+## XML, SQL, PHP, JS, HTML.
