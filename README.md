@@ -1,1 +1,2 @@
-# Api-Google-Maps-em-PHP-e-JS
+# Tecnologias:
+## XML, PHP, JS, HTML.
